@@ -1,0 +1,14 @@
+{
+  "plane": "yp15",
+  "emin": [
+    0.04831356927752495,
+    -0.2512725591659546,
+    -0.3073008060455322
+  ],
+  "emax": [
+    0.8144902586936951,
+    0.22228069603443146,
+    0.3308662474155426
+  ],
+  "source": "phase1_checks.py pass 0: DNS min/max over the 1,233-sample audit subset (the Table VI / Section III-H envelope)"
+}

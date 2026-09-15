@@ -1,0 +1,22 @@
+{
+  "model": "yasunet_v4c",
+  "tier": 1,
+  "seed": 43,
+  "base_ch": 32,
+  "modes": 10,
+  "n_refine": 6,
+  "n_params": 18513699,
+  "batch_size": 32,
+  "lr_init": 0.001,
+  "loss": "plain_charbonnier + eval_aligned_radial_spectral + div + grad",
+  "charbonnier_eps": 0.001,
+  "lambda_spectral_schedule": {
+    "1-15": 0.05,
+    "16-35": 0.15,
+    "36-50": 0.3
+  },
+  "validation_lambda": 0.3,
+  "lambda_div": 0.02,
+  "lambda_grad": 0.05,
+  "early_stopping": "disabled (full 50-epoch budget)"
+}

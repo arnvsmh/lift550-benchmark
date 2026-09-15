@@ -1,0 +1,11 @@
+{
+  "model": "fukami_dscms",
+  "tier": 2,
+  "seed": 42,
+  "batch_size": 32,
+  "lr_init": 0.001,
+  "lr_min": 1e-05,
+  "weight_decay": 0.0001,
+  "max_epochs": 50,
+  "n_params": 146463
+}

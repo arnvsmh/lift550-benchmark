@@ -1,0 +1,14 @@
+{
+  "model": "yasunet_v3",
+  "tier": 3,
+  "seed": 42,
+  "base_ch": 32,
+  "modes": 10,
+  "n_refine": 6,
+  "n_params": 18513699,
+  "batch_size": 32,
+  "lr_init": 0.001,
+  "loss": "charbonnier+spectral",
+  "lambda_spectral": 0.05,
+  "charbonnier_eps": 0.001
+}

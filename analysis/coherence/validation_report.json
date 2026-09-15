@@ -1,0 +1,202 @@
+{
+  "gate1_binning_max_rel_err": 0.0,
+  "gate2_input_maxdiff": 0.0029296875,
+  "gate2_input_rms": 1.5725567209301516e-05,
+  "gate2_input_frac_differing": 0.0006841023763020834,
+  "gate2_dns_maxdiff": 4.465982783585787e-08,
+  "sample_build_ms": 44.274091720581055,
+  "gate3_worst_rel": 0.0006512751126570779,
+  "gate4_strict_worst_abs": 4.5906222341622616e-05,
+  "gate5_flags_exact": true,
+  "coh_drift_my_inference_vs_published": 0.00020599069391773195,
+  "per_model": {
+    "Kim": {
+      "epoch": 35,
+      "lambda": null,
+      "pred_vs_stored_maxdiff": 0.000690196295623724,
+      "pred_vs_stored_rel": 0.00011793145178517473,
+      "flags_from_my_pred": [
+        0,
+        0,
+        0
+      ],
+      "flags_from_stored_field": [
+        0,
+        0,
+        0
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.6699327700054413,
+        "65-128": 0.28614235856164244,
+        "129-256": 0.043532622236801446
+      },
+      "coh_v_published": [
+        0.6699,
+        0.2861,
+        0.0436
+      ]
+    },
+    "v3": {
+      "epoch": 50,
+      "lambda": 0.05,
+      "pred_vs_stored_maxdiff": 0.000838099879684473,
+      "pred_vs_stored_rel": 0.0003544129327313182,
+      "flags_from_my_pred": [
+        0,
+        0,
+        0
+      ],
+      "flags_from_stored_field": [
+        0,
+        0,
+        0
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.6615360728558457,
+        "65-128": 0.2722079800101242,
+        "129-256": 0.06619400930608227
+      },
+      "coh_v_published": [
+        0.6616,
+        0.2723,
+        0.0664
+      ]
+    },
+    "v4e": {
+      "epoch": 50,
+      "lambda": 0.07,
+      "pred_vs_stored_maxdiff": 0.0033170064316558334,
+      "pred_vs_stored_rel": 0.0006512751126570779,
+      "flags_from_my_pred": [
+        0,
+        0,
+        0
+      ],
+      "flags_from_stored_field": [
+        0,
+        0,
+        0
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.6461725237540805,
+        "65-128": 0.25615540659577446,
+        "129-256": 0.042565324749442704
+      },
+      "coh_v_published": [
+        0.6462,
+        0.2562,
+        0.0425
+      ]
+    },
+    "v4d": {
+      "epoch": 50,
+      "lambda": 0.1,
+      "pred_vs_stored_maxdiff": 0.0022678242273712623,
+      "pred_vs_stored_rel": 0.00026519623932483234,
+      "flags_from_my_pred": [
+        0,
+        0,
+        0
+      ],
+      "flags_from_stored_field": [
+        0,
+        0,
+        0
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.6380258115664215,
+        "65-128": 0.24047524954062657,
+        "129-256": 0.043418488286390326
+      },
+      "coh_v_published": [
+        0.638,
+        0.2405,
+        0.0435
+      ]
+    },
+    "v4f12": {
+      "epoch": 50,
+      "lambda": 0.12,
+      "pred_vs_stored_maxdiff": 0.01786445903991707,
+      "pred_vs_stored_rel": 0.0003937141561414048,
+      "flags_from_my_pred": [
+        0,
+        32,
+        0
+      ],
+      "flags_from_stored_field": [
+        0,
+        31,
+        0
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.4208271656339451,
+        "65-128": 0.04661054993053038,
+        "129-256": 0.006981443527163705
+      },
+      "coh_v_published": [
+        0.4209,
+        0.0466,
+        0.007
+      ]
+    },
+    "v4clo": {
+      "epoch": 50,
+      "lambda": 0.15,
+      "pred_vs_stored_maxdiff": 0.015776532202148363,
+      "pred_vs_stored_rel": 0.00042367322199208716,
+      "flags_from_my_pred": [
+        46,
+        29,
+        54
+      ],
+      "flags_from_stored_field": [
+        46,
+        29,
+        54
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.41969268850690994,
+        "65-128": 0.07182862931707318,
+        "129-256": 0.002011333290029617
+      },
+      "coh_v_published": [
+        0.4197,
+        0.0718,
+        0.002
+      ]
+    },
+    "v4c": {
+      "epoch": 50,
+      "lambda": 0.3,
+      "pred_vs_stored_maxdiff": 0.012621060725098054,
+      "pred_vs_stored_rel": 0.00042916872769383635,
+      "flags_from_my_pred": [
+        70,
+        29,
+        66
+      ],
+      "flags_from_stored_field": [
+        70,
+        29,
+        66
+      ],
+      "coh_v_from_my_pred": {
+        "33-64": 0.40737185865671005,
+        "65-128": 0.07116959740979242,
+        "129-256": 0.0003441227303847628
+      },
+      "coh_v_published": [
+        0.4075,
+        0.0712,
+        0.0003
+      ]
+    }
+  },
+  "all_gates_pass": true,
+  "snapshot": {
+    "seed": 0,
+    "snap": 708,
+    "yp": "yp15"
+  }
+}

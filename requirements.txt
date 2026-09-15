@@ -1,0 +1,8 @@
+# Python packages imported by the code in this repository. Versions are not pinned here.
+torch
+numpy
+scipy
+matplotlib
+# used only by figures/v6/scripts/verify_v6.py (checks of the written figure PDFs)
+pypdf
+pdfplumber

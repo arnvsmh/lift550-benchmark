@@ -1,0 +1,78 @@
+mode full: 5000 samples; tiers [1]; models per tier [23]
+DNS envelope yp15: sigma units lo [ -3.3 -13.2  -7.1] hi [ 4.3 11.7  7.6]  (n=314)
+DNS envelope yp30: sigma units lo [-4.2 -7.5 -7.4] hi [4.  7.9 6.2]  (n=314)
+DNS envelope yp50: sigma units lo [-4.8 -6.8 -6.4] hi [4.1 8.  6.2]  (n=314)
+DNS envelope yp100: sigma units lo [-5.  -5.4 -6.3] hi [4.4 6.9 5.7]  (n=291)
+pass 0 done in 72s
+loaded T1 v4e_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed42\best_charb.pt
+loaded T1 v4e_s43          epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed43\best_charb.pt
+loaded T1 v4e_s44          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed44\best_charb.pt
+loaded T1 v4e_s43_ep50     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed43\latest.pt
+loaded T1 v3_s42           epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier1_seed42\best.pt
+loaded T1 v3_s43           epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier1_seed43\best.pt
+loaded T1 v3_s44           epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier1_seed44\best.pt
+loaded T1 v4d_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4d_tier1_seed42\best.pt
+loaded T1 v4f12_s42        epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4f12_tier1_seed42\best.pt
+loaded T1 v4clo_s42        epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4clo_tier1_seed42\best.pt
+loaded T1 v4c_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4c_tier1_seed42\best.pt
+loaded T1 kim_s42          epoch 35 (json epoch 35)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier1_seed42\best.pt
+loaded T1 kim_s43          epoch 36 (json epoch 36)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier1_seed43\best.pt
+loaded T1 kim_s44          epoch 32 (json epoch 32)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier1_seed44\best.pt
+loaded T1 fukami_cnn_s42   epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier1_seed42\best.pt
+loaded T1 fukami_cnn_s43   epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier1_seed43\best.pt
+loaded T1 fukami_cnn_s44   epoch 51 (json epoch 51)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier1_seed44\best.pt
+loaded T1 fukami_dscms_s42 epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier1_seed42\best.pt
+loaded T1 fukami_dscms_s43 epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier1_seed43\best.pt
+loaded T1 fukami_dscms_s44 epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier1_seed44\best.pt
+loaded T1 guastoni_s42     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier1_seed42\best.pt
+loaded T1 guastoni_s43     epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier1_seed43\best.pt
+loaded T1 guastoni_s44     epoch 48 (json epoch 48)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier1_seed44\best.pt
+  200/5000 samples  185s elapsed  ETA 73.9 min
+  400/5000 samples  349s elapsed  ETA 66.8 min
+  600/5000 samples  512s elapsed  ETA 62.6 min
+  800/5000 samples  676s elapsed  ETA 59.1 min
+  1000/5000 samples  839s elapsed  ETA 56.0 min
+  1200/5000 samples  1003s elapsed  ETA 52.9 min
+  1400/5000 samples  1167s elapsed  ETA 50.0 min
+  1600/5000 samples  1331s elapsed  ETA 47.1 min
+  1800/5000 samples  1494s elapsed  ETA 44.3 min
+  2000/5000 samples  1658s elapsed  ETA 41.5 min
+  2200/5000 samples  1822s elapsed  ETA 38.6 min
+  2400/5000 samples  1986s elapsed  ETA 35.9 min
+  2600/5000 samples  2149s elapsed  ETA 33.1 min
+  2800/5000 samples  2313s elapsed  ETA 30.3 min
+  3000/5000 samples  2477s elapsed  ETA 27.5 min
+  3200/5000 samples  2641s elapsed  ETA 24.8 min
+  3400/5000 samples  2804s elapsed  ETA 22.0 min
+  3600/5000 samples  2968s elapsed  ETA 19.2 min
+  3800/5000 samples  3132s elapsed  ETA 16.5 min
+  4000/5000 samples  3296s elapsed  ETA 13.7 min
+  4200/5000 samples  3459s elapsed  ETA 11.0 min
+  4400/5000 samples  3623s elapsed  ETA 8.2 min
+  4600/5000 samples  3787s elapsed  ETA 5.5 min
+  4800/5000 samples  3964s elapsed  ETA 2.8 min
+  5000/5000 samples  4157s elapsed  ETA 0.0 min
+pass 1 done in 4157s -> C:\Users\Arnav Simha\AppData\Local\Temp\claude\C--Users-Arnav-Simha-AppData-Roaming-Claude-scratch-workspaces-1ca040d2-beed-4004-87e5-7e25f8e84e2c-ad963e29-37f9-4d31-9c6d-d2ba770099b0-scratch-2026-09-11-e1f53e\e83fac3e-0e3d-4103-901a-6b105f49369a\scratchpad\spike_out
+VALIDATE T1|v4e_s42             epoch 50/50 | yp15(n=1570) N 0.16912/0.16912 E 0.27867/0.27867 | yp30(n=1569) N 0.12681/0.12681 E 0.25907/0.25907 | yp50(n=1570) N 0.10658/0.10658 E 0.24443/0.24443 | yp100(n=291) N 0.07786/0.07786 E 0.19973/0.19973 | max|diff| 4.95e-07
+VALIDATE T1|v4e_s43             epoch 49/49 | yp15(n=314) N 0.16762/0.16761 E 0.27465/0.27466 | yp30(n=314) N 0.12604/0.12603 E 0.25587/0.25591 | yp50(n=314) N 0.10605/0.10605 E 0.24164/0.24168 | yp100(n=291) N 0.07747/0.07747 E 0.19637/0.19637 | max|diff| 3.98e-05
+VALIDATE T1|v4e_s44             epoch 50/50 | yp15(n=1570) N 0.16716/0.16716 E 0.27081/0.27081 | yp30(n=1569) N 0.12579/0.12579 E 0.25402/0.25402 | yp50(n=1570) N 0.10593/0.10593 E 0.24027/0.24027 | yp100(n=291) N 0.07738/0.07738 E 0.19583/0.19583 | max|diff| 2.27e-07
+VALIDATE T1|v4e_s43_ep50        epoch 50/50 | yp15(n=1570) N 0.16756/0.16756 E 0.27317/0.27317 | yp30(n=1569) N 0.12602/0.12602 E 0.25512/0.25512 | yp50(n=1570) N 0.10605/0.10605 E 0.24134/0.24134 | yp100(n=291) N 0.07746/0.07746 E 0.19645/0.19645 | max|diff| 2.24e-07
+VALIDATE T1|v3_s42              epoch 50/50 | yp15(n=1570) N 0.16569/0.16569 E 0.31101/0.31101 | yp30(n=1569) N 0.12516/0.12516 E 0.28204/0.28204 | yp50(n=1570) N 0.10555/0.10555 E 0.26179/0.26179 | yp100(n=291) N 0.07722/0.07722 E 0.21233/0.21233 | max|diff| 1.22e-07
+VALIDATE T1|v3_s43              epoch 50/50 | yp15(n=314) N 0.16761/0.16760 E 0.31544/0.31549 | yp30(n=314) N 0.12614/0.12614 E 0.28381/0.28386 | yp50(n=314) N 0.10621/0.10621 E 0.26481/0.26482 | yp100(n=291) N 0.07763/0.07763 E 0.21302/0.21302 | max|diff| 4.48e-05
+VALIDATE T1|v3_s44              epoch 50/50 | yp15(n=314) N 0.16657/0.16657 E 0.31392/0.31396 | yp30(n=314) N 0.12556/0.12555 E 0.28279/0.28280 | yp50(n=314) N 0.10584/0.10584 E 0.26347/0.26346 | yp100(n=291) N 0.07739/0.07739 E 0.21232/0.21232 | max|diff| 3.51e-05
+VALIDATE T1|v4d_s42             epoch 50/50 | yp15(n=1570) N 0.17025/0.17025 E 0.25669/0.25669 | yp30(n=1569) N 0.12745/0.12745 E 0.24693/0.24693 | yp50(n=1570) N 0.10696/0.10696 E 0.23561/0.23561 | yp100(n=291) N 0.07799/0.07799 E 0.19381/0.19380 | max|diff| 3.55e-07
+VALIDATE T1|v4f12_s42           epoch 50/50 | yp15(n=1570) N 0.17683/0.17683 E 0.10626/0.10626 | yp30(n=1569) N 0.13914/0.13914 E 0.10711/0.10711 | yp50(n=1570) N 0.12051/0.12051 E 0.10850/0.10849 | yp100(n=291) N 0.09013/0.09012 E 0.09865/0.09871 | max|diff| 6.07e-05
+VALIDATE T1|v4clo_s42           epoch 50/50 | yp15(n=1570) N 0.22940/0.22940 E 0.03910/0.03910 | yp30(n=1569) N 0.17604/0.17604 E 0.03512/0.03512 | yp50(n=1570) N 0.14950/0.14950 E 0.03270/0.03270 | yp100(n=291) N 0.10964/0.10964 E 0.03107/0.03107 | max|diff| 3.28e-06
+VALIDATE T1|v4c_s42             epoch 50/50 | yp15(n=1570) N 0.22811/0.22811 E 0.03694/0.03694 | yp30(n=1569) N 0.17488/0.17488 E 0.03284/0.03285 | yp50(n=1570) N 0.14837/0.14837 E 0.03047/0.03046 | yp100(n=291) N 0.10899/0.10899 E 0.02892/0.02893 | max|diff| 5.40e-06
+VALIDATE T1|kim_s42             epoch 35/35 | yp15(n=1570) N 0.16735/0.16735 E 0.30305/0.30305 | yp30(n=1569) N 0.12618/0.12618 E 0.28436/0.28436 | yp50(n=1570) N 0.10656/0.10656 E 0.26523/0.26523 | yp100(n=291) N 0.07802/0.07802 E 0.21226/0.21226 | max|diff| 3.81e-07
+VALIDATE T1|kim_s43             epoch 36/36 | yp15(n=1570) N 0.16733/0.16733 E 0.30513/0.30513 | yp30(n=1569) N 0.12617/0.12617 E 0.28462/0.28462 | yp50(n=1570) N 0.10655/0.10655 E 0.26709/0.26709 | yp100(n=291) N 0.07800/0.07800 E 0.22278/0.22278 | max|diff| 1.33e-07
+VALIDATE T1|kim_s44             epoch 32/32 | yp15(n=1570) N 0.16720/0.16720 E 0.30824/0.30824 | yp30(n=1569) N 0.12620/0.12620 E 0.28381/0.28381 | yp50(n=1570) N 0.10663/0.10663 E 0.26482/0.26482 | yp100(n=291) N 0.07809/0.07809 E 0.21390/0.21390 | max|diff| 2.41e-07
+VALIDATE T1|fukami_cnn_s42      epoch 50/50 | yp15(n=1570) N 0.20189/0.20189 E 0.40204/0.40204 | yp30(n=1569) N 0.14383/0.14383 E 0.35059/0.35059 | yp50(n=1570) N 0.11723/0.11723 E 0.31622/0.31622 | yp100(n=291) N 0.08510/0.08510 E 0.25401/0.25401 | max|diff| 9.21e-09
+VALIDATE T1|fukami_cnn_s43      epoch 50/50 | yp15(n=1570) N 0.20187/0.20187 E 0.40181/0.40181 | yp30(n=1569) N 0.14384/0.14384 E 0.35056/0.35056 | yp50(n=1570) N 0.11724/0.11724 E 0.31626/0.31626 | yp100(n=291) N 0.08511/0.08511 E 0.25349/0.25349 | max|diff| 1.16e-08
+VALIDATE T1|fukami_cnn_s44      epoch 51/51 | yp15(n=1570) N 0.20173/0.20173 E 0.40327/0.40327 | yp30(n=1569) N 0.14381/0.14381 E 0.35126/0.35126 | yp50(n=1570) N 0.11729/0.11729 E 0.31629/0.31629 | yp100(n=291) N 0.08514/0.08514 E 0.25321/0.25321 | max|diff| 8.16e-09
+VALIDATE T1|fukami_dscms_s42    epoch 50/50 | yp15(n=1570) N 0.18081/0.18081 E 0.33922/0.33922 | yp30(n=1569) N 0.13326/0.13326 E 0.30291/0.30291 | yp50(n=1570) N 0.11098/0.11098 E 0.27767/0.27767 | yp100(n=291) N 0.08113/0.08113 E 0.22407/0.22407 | max|diff| 4.74e-08
+VALIDATE T1|fukami_dscms_s43    epoch 49/49 | yp15(n=1570) N 0.18145/0.18145 E 0.33958/0.33958 | yp30(n=1569) N 0.13362/0.13362 E 0.30292/0.30292 | yp50(n=1570) N 0.11122/0.11122 E 0.27687/0.27687 | yp100(n=291) N 0.08131/0.08131 E 0.22284/0.22284 | max|diff| 7.81e-08
+VALIDATE T1|fukami_dscms_s44    epoch 50/50 | yp15(n=1570) N 0.18072/0.18072 E 0.33866/0.33866 | yp30(n=1569) N 0.13321/0.13321 E 0.30235/0.30235 | yp50(n=1570) N 0.11091/0.11091 E 0.27709/0.27709 | yp100(n=291) N 0.08107/0.08107 E 0.22343/0.22343 | max|diff| 1.49e-07
+VALIDATE T1|guastoni_s42        epoch 50/50 | yp15(n=1570) N 0.19625/0.19625 E 0.38931/0.38931 | yp30(n=1569) N 0.14132/0.14132 E 0.34278/0.34278 | yp50(n=1570) N 0.11604/0.11604 E 0.31310/0.31310 | yp100(n=291) N 0.08445/0.08445 E 0.25434/0.25434 | max|diff| 2.29e-08
+VALIDATE T1|guastoni_s43        epoch 49/49 | yp15(n=1570) N 0.19630/0.19630 E 0.39037/0.39037 | yp30(n=1569) N 0.14124/0.14124 E 0.34269/0.34269 | yp50(n=1570) N 0.11596/0.11596 E 0.31300/0.31300 | yp100(n=291) N 0.08440/0.08440 E 0.25418/0.25418 | max|diff| 4.73e-09
+VALIDATE T1|guastoni_s44        epoch 48/48 | yp15(n=1570) N 0.19650/0.19650 E 0.39193/0.39193 | yp30(n=1569) N 0.14131/0.14131 E 0.34445/0.34445 | yp50(n=1570) N 0.11595/0.11595 E 0.31437/0.31437 | yp100(n=291) N 0.08435/0.08435 E 0.25478/0.25478 | max|diff| 7.69e-09

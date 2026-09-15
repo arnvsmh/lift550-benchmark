@@ -1,0 +1,64 @@
+mode full: 5000 samples; tiers [1, 3]; models per tier [15, 5]
+DNS envelope yp15: sigma units lo [ -3.3 -13.2  -7.1] hi [ 4.3 11.7  7.6]  (n=314)
+DNS envelope yp30: sigma units lo [-4.2 -7.5 -7.4] hi [4.  7.9 6.2]  (n=314)
+DNS envelope yp50: sigma units lo [-4.8 -6.8 -6.4] hi [4.1 8.  6.2]  (n=314)
+DNS envelope yp100: sigma units lo [-5.  -5.4 -6.3] hi [4.4 6.9 5.7]  (n=291)
+pass 0 done in 88s
+loaded T1 v4e_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed42\best_charb.pt
+loaded T1 v4d_s43          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4d_tier1_seed43\best.pt
+loaded T1 v4d_s44          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4d_tier1_seed44\best.pt
+loaded T1 v4f12_s43        epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed43\best.pt
+loaded T1 v4f12_s44        epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed44\best.pt
+loaded T1 v4clo_s43        epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed43\best.pt
+loaded T1 v4clo_s44        epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed44\best.pt
+loaded T1 v4c_s43          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed43\best.pt
+loaded T1 v4c_s44          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed44\best.pt
+loaded T1 v4d_s44_ep35     epoch 35 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4d_tier1_seed44\best_charb.pt
+loaded T1 v4f12_s43_ep15   epoch 15 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed43\best_charb.pt
+loaded T1 v4f12_s44_ep15   epoch 15 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed44\best_charb.pt
+loaded T1 v4clo_s44_ep34   epoch 34 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed44\best_charb.pt
+loaded T1 v4c_s43_ep12     epoch 12 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed43\best_charb.pt
+loaded T1 v4c_s44_ep14     epoch 14 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed44\best_charb.pt
+loaded T3 v4e_s42          epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed42\best_charb.pt
+loaded T3 v4c_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier3_seed42\best.pt
+loaded T3 v4c_s43          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier3_seed43\best.pt
+loaded T3 v4c_s42_ep14     epoch 14 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier3_seed42\best_charb.pt
+loaded T3 v4c_s43_ep15     epoch 15 (json epoch None)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier3_seed43\best_charb.pt
+  200/5000 samples  204s elapsed  ETA 81.5 min
+  400/5000 samples  389s elapsed  ETA 74.6 min
+  600/5000 samples  574s elapsed  ETA 70.2 min
+  800/5000 samples  759s elapsed  ETA 66.4 min
+  1000/5000 samples  945s elapsed  ETA 63.0 min
+  1200/5000 samples  1130s elapsed  ETA 59.6 min
+  1400/5000 samples  1326s elapsed  ETA 56.8 min
+  1600/5000 samples  1526s elapsed  ETA 54.1 min
+  1800/5000 samples  1727s elapsed  ETA 51.2 min
+  2000/5000 samples  1936s elapsed  ETA 48.4 min
+  2200/5000 samples  2149s elapsed  ETA 45.6 min
+  2400/5000 samples  2363s elapsed  ETA 42.7 min
+  2600/5000 samples  2577s elapsed  ETA 39.6 min
+  2800/5000 samples  2791s elapsed  ETA 36.6 min
+  3000/5000 samples  3005s elapsed  ETA 33.4 min
+  3200/5000 samples  3220s elapsed  ETA 30.2 min
+  3400/5000 samples  3434s elapsed  ETA 26.9 min
+  3600/5000 samples  3651s elapsed  ETA 23.7 min
+  3800/5000 samples  3840s elapsed  ETA 20.2 min
+  4000/5000 samples  4011s elapsed  ETA 16.7 min
+  4200/5000 samples  4166s elapsed  ETA 13.2 min
+  4400/5000 samples  4357s elapsed  ETA 9.9 min
+  4600/5000 samples  4549s elapsed  ETA 6.6 min
+  4800/5000 samples  4776s elapsed  ETA 3.3 min
+  5000/5000 samples  5047s elapsed  ETA 0.0 min
+pass 1 done in 5047s -> C:\Users\Arnav Simha\AppData\Local\Temp\claude\C--Users-Arnav-Simha-AppData-Roaming-Claude-scratch-workspaces-1ca040d2-beed-4004-87e5-7e25f8e84e2c-ad963e29-37f9-4d31-9c6d-d2ba770099b0-scratch-2026-09-11-e1f53e\e83fac3e-0e3d-4103-901a-6b105f49369a\scratchpad\spike_out
+VALIDATE T1|v4e_s42             epoch 50/50 | yp15(n=1570) N 0.16912/0.16912 E 0.27867/0.27867 | yp30(n=1569) N 0.12681/0.12681 E 0.25907/0.25907 | yp50(n=1570) N 0.10658/0.10658 E 0.24443/0.24443 | yp100(n=291) N 0.07786/0.07786 E 0.19973/0.19973 | max|diff| 4.95e-07
+VALIDATE T1|v4d_s43             epoch 50/50 | yp15(n=1570) N 0.16870/0.16870 E 0.25029/0.25029 | yp30(n=1569) N 0.12659/0.12659 E 0.24363/0.24363 | yp50(n=1570) N 0.10642/0.10642 E 0.23286/0.23286 | yp100(n=291) N 0.07764/0.07764 E 0.19114/0.19114 | max|diff| 2.58e-07
+VALIDATE T1|v4d_s44             epoch 50/50 | yp15(n=1570) N 0.17466/0.17466 E 0.10762/0.10762 | yp30(n=1569) N 0.13766/0.13766 E 0.10880/0.10880 | yp50(n=1570) N 0.11939/0.11938 E 0.10989/0.10989 | yp100(n=291) N 0.08925/0.08925 E 0.09782/0.09782 | max|diff| 8.23e-07
+VALIDATE T1|v4f12_s43           epoch 50/50 | yp15(n=1570) N 0.17650/0.17650 E 0.10640/0.10640 | yp30(n=1569) N 0.13879/0.13879 E 0.10788/0.10788 | yp50(n=1570) N 0.12016/0.12016 E 0.10868/0.10868 | yp100(n=291) N 0.08976/0.08976 E 0.09756/0.09756 | max|diff| 6.17e-06
+VALIDATE T1|v4f12_s44           epoch 50/50 | yp15(n=1570) N 0.17511/0.17511 E 0.10478/0.10478 | yp30(n=1569) N 0.13820/0.13820 E 0.10644/0.10643 | yp50(n=1570) N 0.11985/0.11984 E 0.10765/0.10766 | yp100(n=291) N 0.08970/0.08970 E 0.09742/0.09742 | max|diff| 7.23e-06
+VALIDATE T1|v4clo_s43           epoch 50/50 | yp15(n=1570) N 0.22724/0.22724 E 0.04085/0.04085 | yp30(n=1569) N 0.17432/0.17432 E 0.03686/0.03686 | yp50(n=1570) N 0.14829/0.14829 E 0.03354/0.03354 | yp100(n=291) N 0.10924/0.10924 E 0.03031/0.03031 | max|diff| 1.31e-06
+VALIDATE T1|v4clo_s44           epoch 50/50 | yp15(n=1570) N 0.22592/0.22592 E 0.04055/0.04055 | yp30(n=1569) N 0.17427/0.17427 E 0.03621/0.03621 | yp50(n=1570) N 0.14792/0.14792 E 0.03302/0.03302 | yp100(n=291) N 0.10873/0.10873 E 0.02980/0.02980 | max|diff| 9.49e-07
+VALIDATE T1|v4c_s43             epoch 50/50 | yp15(n=1570) N 0.23229/0.23229 E 0.03749/0.03749 | yp30(n=1569) N 0.17718/0.17718 E 0.03298/0.03298 | yp50(n=1570) N 0.15013/0.15013 E 0.03019/0.03020 | yp100(n=291) N 0.11039/0.11039 E 0.02829/0.02829 | max|diff| 3.25e-06
+VALIDATE T1|v4c_s44             epoch 50/50 | yp15(n=1570) N 0.23161/0.23161 E 0.03716/0.03716 | yp30(n=1569) N 0.17706/0.17706 E 0.03278/0.03280 | yp50(n=1570) N 0.14980/0.14980 E 0.02979/0.02980 | yp100(n=291) N 0.11004/0.11004 E 0.02822/0.02821 | max|diff| 1.73e-05
+VALIDATE T3|v4e_s42             epoch 49/49 | yp15(n=1570) N 0.26659/0.26659 E 0.52930/0.52930 | yp30(n=1569) N 0.19014/0.19014 E 0.48829/0.48829 | yp50(n=1570) N 0.15445/0.15445 E 0.45807/0.45807 | yp100(n=291) N 0.11375/0.11375 E 0.39702/0.39702 | max|diff| 5.71e-08
+VALIDATE T3|v4c_s42             epoch 50/50 | yp15(n=1570) N 0.36766/0.36766 E 0.06150/0.06149 | yp30(n=1569) N 0.26507/0.26507 E 0.05831/0.05830 | yp50(n=1570) N 0.21699/0.21699 E 0.05471/0.05470 | yp100(n=291) N 0.16055/0.16055 E 0.05618/0.05618 | max|diff| 7.63e-06
+VALIDATE T3|v4c_s43             epoch 50/50 | yp15(n=1570) N 0.36389/0.36389 E 0.05897/0.05897 | yp30(n=1569) N 0.26214/0.26214 E 0.05476/0.05476 | yp50(n=1570) N 0.21422/0.21422 E 0.05119/0.05119 | yp100(n=291) N 0.15855/0.15855 E 0.04896/0.04896 | max|diff| 7.61e-07

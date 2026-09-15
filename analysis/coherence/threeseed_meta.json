@@ -1,0 +1,178 @@
+{
+  "n_samples": 500,
+  "n_done": 500,
+  "stride": 6,
+  "n_val_available": 3139,
+  "yp": "yp15",
+  "tier": 1,
+  "model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "replacement": "v4e seed 42",
+  "bands": [
+    "1-16",
+    "17-32",
+    "33-64",
+    "65-128",
+    "129-256"
+  ],
+  "elapsed_min": 42.261041311422986,
+  "models": {
+    "Kim_s42": {
+      "path": "E:/lift550_paper/runs_final\\kim_tier1_seed42\\best.pt",
+      "epoch": 35,
+      "lambda": null
+    },
+    "v3_s42": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v3_tier1_seed42\\best.pt",
+      "epoch": 50,
+      "lambda": 0.05
+    },
+    "v4e_s42": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4e_tier1_seed42\\best.pt",
+      "epoch": 50,
+      "lambda": 0.07
+    },
+    "v4d_s42": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4d_tier1_seed42\\best.pt",
+      "epoch": 50,
+      "lambda": 0.1
+    },
+    "v4f12_s42": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4f12_tier1_seed42\\best.pt",
+      "epoch": 50,
+      "lambda": 0.12
+    },
+    "v4clo_s42": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4clo_tier1_seed42\\best.pt",
+      "epoch": 50,
+      "lambda": 0.15
+    },
+    "v4c_s42": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4c_tier1_seed42\\best.pt",
+      "epoch": 50,
+      "lambda": 0.3
+    },
+    "Kim_s43": {
+      "path": "E:/lift550_paper/runs_final\\kim_tier1_seed43\\best.pt",
+      "epoch": 36,
+      "lambda": null
+    },
+    "v3_s43": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v3_tier1_seed43\\best.pt",
+      "epoch": 50,
+      "lambda": 0.05
+    },
+    "v4e_s43": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4e_tier1_seed43\\best.pt",
+      "epoch": 50,
+      "lambda": 0.07
+    },
+    "v4d_s43": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4d_tier1_seed43\\best.pt",
+      "epoch": 50,
+      "lambda": 0.1
+    },
+    "v4f12_s43": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4f12_tier1_seed43\\best.pt",
+      "epoch": 50,
+      "lambda": 0.12
+    },
+    "v4clo_s43": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4clo_tier1_seed43\\best.pt",
+      "epoch": 50,
+      "lambda": 0.15
+    },
+    "v4c_s43": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4c_tier1_seed43\\best.pt",
+      "epoch": 50,
+      "lambda": 0.3
+    },
+    "Kim_s44": {
+      "path": "E:/lift550_paper/runs_final\\kim_tier1_seed44\\best.pt",
+      "epoch": 32,
+      "lambda": null
+    },
+    "v3_s44": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v3_tier1_seed44\\best.pt",
+      "epoch": 50,
+      "lambda": 0.05
+    },
+    "v4e_s44": {
+      "path": "E:/lift550_paper/runs_final\\yasunet_v4e_tier1_seed44\\best.pt",
+      "epoch": 50,
+      "lambda": 0.07
+    },
+    "v4d_s44": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4d_tier1_seed44\\best.pt",
+      "epoch": 50,
+      "lambda": 0.1
+    },
+    "v4f12_s44": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4f12_tier1_seed44\\best.pt",
+      "epoch": 50,
+      "lambda": 0.12
+    },
+    "v4clo_s44": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4clo_tier1_seed44\\best.pt",
+      "epoch": 50,
+      "lambda": 0.15
+    },
+    "v4c_s44": {
+      "path": "C:/Users/Arnav Simha/lift550_data/runs_newseeds\\yasunet_v4c_tier1_seed44\\best.pt",
+      "epoch": 50,
+      "lambda": 0.3
+    }
+  },
+  "envelope_audit_subset": {
+    "plane": "yp15",
+    "emin": [
+      0.04831356927752495,
+      -0.2512725591659546,
+      -0.3073008060455322
+    ],
+    "emax": [
+      0.8144902586936951,
+      0.22228069603443146,
+      0.3308662474155426
+    ],
+    "source": "phase1_checks.py pass 0: DNS min/max over the 1,233-sample audit subset (the Table VI / Section III-H envelope)"
+  },
+  "thresholds_sigma": {
+    "lo": [
+      -6.297824440979614,
+      -16.186395022416413,
+      -10.051417914322059
+    ],
+    "hi": [
+      7.290507133206063,
+      14.664946914604515,
+      10.607378873556012
+    ]
+  },
+  "coh_lib_sha256": "b33911ef1fa6157cffc602c269b996e7ea940015058ae7e96d8a47ed8c8afdb0",
+  "data_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    19,
+    21,
+    23
+  ]
+}

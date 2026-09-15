@@ -1,0 +1,22 @@
+{
+  "model": "yasunet_v4",
+  "tier": 1,
+  "seed": 42,
+  "base_ch": 32,
+  "modes": 10,
+  "n_refine": 6,
+  "n_params": 18513699,
+  "batch_size": 32,
+  "lr_init": 0.001,
+  "loss": "nearwall_charbonnier+2d_log_highk_spectral+divergence+gradient",
+  "charbonnier_eps": 0.001,
+  "nearwall": "min(2.0, C/sqrt(yp)), mean-1 normalized",
+  "lambda_spectral_schedule": {
+    "1-15": 0.05,
+    "16-35": 0.1,
+    "36-50": 0.2
+  },
+  "spec_highk_power": 1.0,
+  "lambda_div": 0.02,
+  "lambda_grad": 0.05
+}

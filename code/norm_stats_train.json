@@ -1,0 +1,74 @@
+{
+  "uxz_yp15": {
+    "mean": 0.38128745,
+    "std": 0.10096774,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "uxz_yp30": {
+    "mean": 0.4912255,
+    "std": 0.0884016,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "uxz_yp50": {
+    "mean": 0.53829509,
+    "std": 0.0762063,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "uxz_yp100": {
+    "mean": 0.6004919,
+    "std": 0.06459728,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "vxz_yp15": {
+    "mean": 0.0,
+    "std": 0.01905544,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "vxz_yp30": {
+    "mean": 0.0,
+    "std": 0.03118438,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "vxz_yp50": {
+    "mean": -0.0,
+    "std": 0.03608122,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "vxz_yp100": {
+    "mean": -1e-08,
+    "std": 0.03718134,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "wxz_yp15": {
+    "mean": -0.00031909,
+    "std": 0.04353475,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "wxz_yp30": {
+    "mean": -0.00048494,
+    "std": 0.04935869,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "wxz_yp50": {
+    "mean": -0.0005831,
+    "std": 0.04951927,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  },
+  "wxz_yp100": {
+    "mean": -0.00064348,
+    "std": 0.0456912,
+    "n_snapshots": 17702,
+    "n_pixels": 4640473088
+  }
+}

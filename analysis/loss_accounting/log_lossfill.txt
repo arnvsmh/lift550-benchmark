@@ -1,0 +1,46 @@
+1233 audit-subset samples; 12 checkpoints
+envelope identical to records_p1.npz: True  (pass 0 116s)
+loaded v4e_s42          epoch 50  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed42\best_charb.pt
+loaded v4d_s44          epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4d_tier1_seed44\best.pt
+loaded v4f12_s42        epoch 50  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4f12_tier1_seed42\best.pt
+loaded v4f12_s43        epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed43\best.pt
+loaded v4f12_s44        epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed44\best.pt
+loaded v4clo_s42        epoch 50  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4clo_tier1_seed42\best.pt
+loaded v4clo_s43        epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed43\best.pt
+loaded v4clo_s44        epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed44\best.pt
+loaded v4c_s42          epoch 50  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4c_tier1_seed42\best.pt
+loaded v4c_s43          epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed43\best.pt
+loaded v4c_s44          epoch 50  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed44\best.pt
+loaded v4clo_s43_ep34   epoch 34  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed43\best_charb.pt
+  160/1233 samples  172s  ETA 19.2 min
+  320/1233 samples  366s  ETA 17.4 min
+  480/1233 samples  663s  ETA 17.3 min
+  640/1233 samples  814s  ETA 12.6 min
+  800/1233 samples  961s  ETA 8.7 min
+  960/1233 samples  1122s  ETA 5.3 min
+  1120/1233 samples  1302s  ETA 2.2 min
+pass 1 done in 1429s
+VALIDATION vs records_p1.npz (11 checkpoints, fills as-predicted / v4e / input, all loss terms and flag counts): max abs deviation 2.220e-16
+
+total training objective at each run's terminal weight, plane means; fraction of samples on which the spiked output is lower
+  v4d_s44    lam 0.10 | yp15 pred 0.462 v4e 0.478 in 0.479 dns 0.478 (lower on 100%) | yp30 pred 0.455 v4e 0.468 in 0.469 dns 0.468 (lower on 100%) | yp50 pred 0.441 v4e 0.453 in 0.453 dns 0.453 (lower on 100%) | yp100 pred 0.391 v4e 0.399 in 0.399 dns 0.398 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4f12_s42  lam 0.12 | yp15 pred 0.468 v4e 0.489 in 0.490 dns 0.489 (lower on 100%) | yp30 pred 0.460 v4e 0.478 in 0.478 dns 0.477 (lower on 100%) | yp50 pred 0.447 v4e 0.461 in 0.462 dns 0.461 (lower on 100%) | yp100 pred 0.395 v4e 0.406 in 0.406 dns 0.405 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4f12_s43  lam 0.12 | yp15 pred 0.468 v4e 0.489 in 0.489 dns 0.488 (lower on 100%) | yp30 pred 0.460 v4e 0.477 in 0.478 dns 0.477 (lower on 100%) | yp50 pred 0.446 v4e 0.461 in 0.462 dns 0.461 (lower on 100%) | yp100 pred 0.395 v4e 0.405 in 0.406 dns 0.405 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4f12_s44  lam 0.12 | yp15 pred 0.464 v4e 0.485 in 0.485 dns 0.485 (lower on 100%) | yp30 pred 0.458 v4e 0.475 in 0.475 dns 0.475 (lower on 100%) | yp50 pred 0.445 v4e 0.459 in 0.459 dns 0.459 (lower on 100%) | yp100 pred 0.394 v4e 0.404 in 0.404 dns 0.403 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4clo_s42  lam 0.15 | yp15 pred 0.461 v4e 0.504 in 0.504 dns 0.503 (lower on 100%) | yp30 pred 0.453 v4e 0.491 in 0.491 dns 0.490 (lower on 100%) | yp50 pred 0.439 v4e 0.474 in 0.474 dns 0.473 (lower on 100%) | yp100 pred 0.389 v4e 0.415 in 0.416 dns 0.415 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4clo_s43  lam 0.15 | yp15 pred 0.456 v4e 0.497 in 0.498 dns 0.497 (lower on 100%) | yp30 pred 0.449 v4e 0.486 in 0.486 dns 0.485 (lower on 100%) | yp50 pred 0.436 v4e 0.469 in 0.470 dns 0.469 (lower on 100%) | yp100 pred 0.387 v4e 0.412 in 0.412 dns 0.411 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4clo_s44  lam 0.15 | yp15 pred 0.456 v4e 0.497 in 0.497 dns 0.496 (lower on 100%) | yp30 pred 0.449 v4e 0.486 in 0.486 dns 0.485 (lower on 100%) | yp50 pred 0.435 v4e 0.469 in 0.469 dns 0.468 (lower on 100%) | yp100 pred 0.387 v4e 0.411 in 0.412 dns 0.411 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4c_s42    lam 0.30 | yp15 pred 0.467 v4e 0.556 in 0.557 dns 0.555 (lower on 100%) | yp30 pred 0.458 v4e 0.539 in 0.540 dns 0.538 (lower on 100%) | yp50 pred 0.443 v4e 0.518 in 0.519 dns 0.517 (lower on 100%) | yp100 pred 0.394 v4e 0.450 in 0.451 dns 0.449 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4c_s43    lam 0.30 | yp15 pred 0.472 v4e 0.566 in 0.567 dns 0.565 (lower on 100%) | yp30 pred 0.461 v4e 0.546 in 0.547 dns 0.545 (lower on 100%) | yp50 pred 0.446 v4e 0.524 in 0.525 dns 0.523 (lower on 100%) | yp100 pred 0.396 v4e 0.455 in 0.456 dns 0.455 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+  v4c_s44    lam 0.30 | yp15 pred 0.471 v4e 0.565 in 0.565 dns 0.564 (lower on 100%) | yp30 pred 0.461 v4e 0.546 in 0.546 dns 0.545 (lower on 100%) | yp50 pred 0.446 v4e 0.523 in 0.524 dns 0.523 (lower on 100%) | yp100 pred 0.396 v4e 0.455 in 0.456 dns 0.454 (lower on 100%) |
+             all planes: spiked output lower than  v4e-fill 100.0%  input-fill 100.0%  DNS-fill 100.0%  of 1233 samples
+v4clo seed 43 epoch-34 checkpoint: {'samples_flagged': 0, 'n': 1233, 'max_flagged_px': 0, 'max_abs_z': 13.96875}

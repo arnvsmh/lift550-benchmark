@@ -1,0 +1,120 @@
+1233 audit-subset samples; models per tier [11, 19, 23]
+DNS envelope yp15: sigma units lo [ -3.3 -13.2  -7.1] hi [ 4.3 11.7  7.6]
+DNS envelope yp30: sigma units lo [-4.2 -7.5 -7.4] hi [4.  7.9 6.2]
+DNS envelope yp50: sigma units lo [-4.8 -6.8 -6.4] hi [4.1 8.  6.2]
+DNS envelope yp100: sigma units lo [-5.  -5.4 -6.3] hi [4.4 6.9 5.7]
+pass 0 done in 78s
+loaded T1 v4e_s42            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier1_seed42\best_charb.pt
+loaded T1 v4d_s44            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4d_tier1_seed44\best.pt
+loaded T1 v4f12_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4f12_tier1_seed42\best.pt
+loaded T1 v4f12_s43          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed43\best.pt
+loaded T1 v4f12_s44          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4f12_tier1_seed44\best.pt
+loaded T1 v4clo_s42          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4clo_tier1_seed42\best.pt
+loaded T1 v4clo_s43          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed43\best.pt
+loaded T1 v4clo_s44          epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4clo_tier1_seed44\best.pt
+loaded T1 v4c_s42            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4c_tier1_seed42\best.pt
+loaded T1 v4c_s43            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed43\best.pt
+loaded T1 v4c_s44            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier1_seed44\best.pt
+loaded T2 v4e_s42            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier2_seed42\best_charb.pt
+loaded T2 v4e_s43            epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier2_seed43\best_charb.pt
+loaded T2 v4e_s44            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier2_seed44\best_charb.pt
+loaded T2 v3_s42             epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier2_seed42\best.pt
+loaded T2 v3_s43             epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier2_seed43\best.pt
+loaded T2 v3_s44             epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier2_seed44\best.pt
+loaded T2 kim_s42            epoch 35 (json epoch 35)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier2_seed42\best.pt
+loaded T2 kim_s43            epoch 36 (json epoch 36)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier2_seed43\best.pt
+loaded T2 kim_s44            epoch 33 (json epoch 33)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier2_seed44\best.pt
+loaded T2 fukami_cnn_s42     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier2_seed42\best.pt
+loaded T2 fukami_cnn_s43     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier2_seed43\best.pt
+loaded T2 fukami_cnn_s44     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier2_seed44\best.pt
+loaded T2 fukami_dscms_s42   epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier2_seed42\best.pt
+loaded T2 fukami_dscms_s43   epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier2_seed43\best.pt
+loaded T2 fukami_dscms_s44   epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier2_seed44\best.pt
+loaded T2 guastoni_s42       epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier2_seed42\best.pt
+loaded T2 guastoni_s43       epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier2_seed43\best.pt
+loaded T2 guastoni_s44       epoch 48 (json epoch 48)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier2_seed44\best.pt
+loaded T2 v4c_s42            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4c_tier2_seed42\best.pt
+loaded T3 v4e_s42            epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed42\best_charb.pt
+loaded T3 v4e_s43            epoch 14 (json epoch 14)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed43\best_charb.pt
+loaded T3 v4e_s44            epoch 6 (json epoch 6)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed44\best_charb.pt
+loaded T3 v3_s42             epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier3_seed42\best.pt
+loaded T3 v3_s43             epoch 42 (json epoch 42)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier3_seed43\best.pt
+loaded T3 v3_s44             epoch 35 (json epoch 35)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v3_tier3_seed44\best.pt
+loaded T3 kim_s42            epoch 21 (json epoch 21)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier3_seed42\best.pt
+loaded T3 kim_s43            epoch 22 (json epoch 22)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier3_seed43\best.pt
+loaded T3 kim_s44            epoch 17 (json epoch 17)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\kim_tier3_seed44\best.pt
+loaded T3 fukami_cnn_s42     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier3_seed42\best.pt
+loaded T3 fukami_cnn_s43     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier3_seed43\best.pt
+loaded T3 fukami_cnn_s44     epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_cnn_tier3_seed44\best.pt
+loaded T3 fukami_dscms_s42   epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier3_seed42\best.pt
+loaded T3 fukami_dscms_s43   epoch 49 (json epoch 49)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier3_seed43\best.pt
+loaded T3 fukami_dscms_s44   epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\fukami_dscms_tier3_seed44\best.pt
+loaded T3 guastoni_s42       epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier3_seed42\best.pt
+loaded T3 guastoni_s43       epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier3_seed43\best.pt
+loaded T3 guastoni_s44       epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_baselines\guastoni_tier3_seed44\best.pt
+loaded T3 v4e_s42_ep7        epoch 7 (json epoch 7)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed42\best.pt
+loaded T3 v4e_s43_ep19       epoch 19 (json epoch 19)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed43\best.pt
+loaded T3 v4e_s44_ep34       epoch 34 (json epoch 34)  <- C:\Users\Arnav Simha\Downloads\lift550_paper\runs_final\yasunet_v4e_tier3_seed44\best.pt
+loaded T3 v4c_s42            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier3_seed42\best.pt
+loaded T3 v4c_s43            epoch 50 (json epoch 50)  <- C:\Users\Arnav Simha\lift550_data\runs_newseeds\yasunet_v4c_tier3_seed43\best.pt
+  160/1233 samples  505s elapsed  ETA 56.4 min
+  320/1233 samples  1004s elapsed  ETA 47.7 min
+  480/1233 samples  1503s elapsed  ETA 39.3 min
+  640/1233 samples  1984s elapsed  ETA 30.6 min
+  800/1233 samples  2352s elapsed  ETA 21.2 min
+  960/1233 samples  2719s elapsed  ETA 12.9 min
+  1120/1233 samples  3083s elapsed  ETA 5.2 min
+pass 1 done in 3341s -> C:\Users\Arnav Simha\AppData\Local\Temp\claude\C--Users-Arnav-Simha-AppData-Roaming-Claude-scratch-workspaces-1ca040d2-beed-4004-87e5-7e25f8e84e2c-ad963e29-37f9-4d31-9c6d-d2ba770099b0-scratch-2026-09-11-e1f53e\e83fac3e-0e3d-4103-901a-6b105f49369a\scratchpad\spike_out
+VALIDATE T1|v4e_s42             epoch 50/50 | yp15(n=314) N 0.16914/0.16912 E 0.27863/0.27867 | yp30(n=314) N 0.12681/0.12681 E 0.25903/0.25907 | yp50(n=314) N 0.10658/0.10658 E 0.24439/0.24443 | yp100(n=291) N 0.07786/0.07786 E 0.19973/0.19973 | yp100 |diff| 4.96e-07
+VALIDATE T1|v4d_s44             epoch 50/50 | yp15(n=314) N 0.17467/0.17466 E 0.10763/0.10762 | yp30(n=314) N 0.13767/0.13766 E 0.10874/0.10880 | yp50(n=314) N 0.11939/0.11938 E 0.10986/0.10989 | yp100(n=291) N 0.08925/0.08925 E 0.09782/0.09782 | yp100 |diff| 4.01e-07
+VALIDATE T1|v4f12_s42           epoch 50/50 | yp15(n=314) N 0.17685/0.17683 E 0.10619/0.10626 | yp30(n=314) N 0.13913/0.13914 E 0.10703/0.10711 | yp50(n=314) N 0.12051/0.12051 E 0.10838/0.10849 | yp100(n=291) N 0.09013/0.09012 E 0.09865/0.09871 | yp100 |diff| 6.07e-05
+VALIDATE T1|v4f12_s43           epoch 50/50 | yp15(n=314) N 0.17652/0.17650 E 0.10650/0.10640 | yp30(n=314) N 0.13878/0.13879 E 0.10794/0.10788 | yp50(n=314) N 0.12015/0.12016 E 0.10868/0.10868 | yp100(n=291) N 0.08976/0.08976 E 0.09756/0.09756 | yp100 |diff| 6.16e-06
+VALIDATE T1|v4f12_s44           epoch 50/50 | yp15(n=314) N 0.17511/0.17511 E 0.10480/0.10478 | yp30(n=314) N 0.13819/0.13820 E 0.10641/0.10643 | yp50(n=314) N 0.11986/0.11984 E 0.10764/0.10766 | yp100(n=291) N 0.08970/0.08970 E 0.09742/0.09742 | yp100 |diff| 5.01e-06
+VALIDATE T1|v4clo_s42           epoch 50/50 | yp15(n=314) N 0.22941/0.22940 E 0.03909/0.03910 | yp30(n=314) N 0.17607/0.17604 E 0.03504/0.03512 | yp50(n=314) N 0.14951/0.14950 E 0.03256/0.03270 | yp100(n=291) N 0.10964/0.10964 E 0.03107/0.03107 | yp100 |diff| 1.46e-06
+VALIDATE T1|v4clo_s43           epoch 50/50 | yp15(n=314) N 0.22725/0.22724 E 0.04087/0.04085 | yp30(n=314) N 0.17432/0.17432 E 0.03680/0.03686 | yp50(n=314) N 0.14829/0.14829 E 0.03344/0.03354 | yp100(n=291) N 0.10924/0.10924 E 0.03031/0.03031 | yp100 |diff| 1.34e-06
+VALIDATE T1|v4clo_s44           epoch 50/50 | yp15(n=314) N 0.22591/0.22592 E 0.04055/0.04055 | yp30(n=314) N 0.17425/0.17427 E 0.03611/0.03621 | yp50(n=314) N 0.14790/0.14792 E 0.03288/0.03302 | yp100(n=291) N 0.10873/0.10873 E 0.02980/0.02980 | yp100 |diff| 8.31e-07
+VALIDATE T1|v4c_s42             epoch 50/50 | yp15(n=314) N 0.22810/0.22811 E 0.03700/0.03694 | yp30(n=314) N 0.17487/0.17488 E 0.03288/0.03285 | yp50(n=314) N 0.14837/0.14837 E 0.03036/0.03046 | yp100(n=291) N 0.10899/0.10899 E 0.02892/0.02893 | yp100 |diff| 5.36e-06
+VALIDATE T1|v4c_s43             epoch 50/50 | yp15(n=314) N 0.23230/0.23229 E 0.03747/0.03749 | yp30(n=314) N 0.17718/0.17718 E 0.03295/0.03298 | yp50(n=314) N 0.15012/0.15013 E 0.03009/0.03020 | yp100(n=291) N 0.11039/0.11039 E 0.02829/0.02829 | yp100 |diff| 9.55e-08
+VALIDATE T1|v4c_s44             epoch 50/50 | yp15(n=314) N 0.23161/0.23161 E 0.03719/0.03716 | yp30(n=314) N 0.17711/0.17706 E 0.03270/0.03280 | yp50(n=314) N 0.14983/0.14980 E 0.02960/0.02980 | yp100(n=291) N 0.11004/0.11004 E 0.02822/0.02821 | yp100 |diff| 7.21e-06
+VALIDATE T2|v4e_s42             epoch 50/50 | yp15(n=314) N 0.16733/0.16731 E 0.27156/0.27159 | yp30(n=314) N 0.12587/0.12587 E 0.25455/0.25458 | yp50(n=314) N 0.10596/0.10596 E 0.24079/0.24083 | yp100(n=291) N 0.07741/0.07741 E 0.19744/0.19744 | yp100 |diff| 1.01e-08
+VALIDATE T2|v4e_s43             epoch 49/49 | yp15(n=314) N 0.16710/0.16710 E 0.27069/0.27070 | yp30(n=314) N 0.12573/0.12573 E 0.25418/0.25421 | yp50(n=314) N 0.10587/0.10586 E 0.24032/0.24036 | yp100(n=291) N 0.07737/0.07737 E 0.19496/0.19496 | yp100 |diff| 3.10e-08
+VALIDATE T2|v4e_s44             epoch 50/50 | yp15(n=314) N 0.16689/0.16689 E 0.26889/0.26891 | yp30(n=314) N 0.12564/0.12564 E 0.25267/0.25272 | yp50(n=314) N 0.10581/0.10581 E 0.23924/0.23928 | yp100(n=291) N 0.07731/0.07730 E 0.19432/0.19432 | yp100 |diff| 8.31e-08
+VALIDATE T2|v3_s42              epoch 50/50 | yp15(n=314) N 0.16774/0.16772 E 0.31341/0.31344 | yp30(n=314) N 0.12614/0.12614 E 0.28163/0.28166 | yp50(n=314) N 0.10619/0.10619 E 0.26127/0.26131 | yp100(n=291) N 0.07760/0.07760 E 0.21112/0.21112 | yp100 |diff| 5.05e-08
+VALIDATE T2|v3_s43              epoch 50/50 | yp15(n=314) N 0.16714/0.16713 E 0.31457/0.31460 | yp30(n=314) N 0.12585/0.12585 E 0.28405/0.28410 | yp50(n=314) N 0.10603/0.10603 E 0.26404/0.26405 | yp100(n=291) N 0.07750/0.07750 E 0.21293/0.21293 | yp100 |diff| 1.09e-07
+VALIDATE T2|v3_s44              epoch 50/50 | yp15(n=314) N 0.16694/0.16693 E 0.31259/0.31262 | yp30(n=314) N 0.12579/0.12579 E 0.28158/0.28164 | yp50(n=314) N 0.10599/0.10599 E 0.26125/0.26130 | yp100(n=291) N 0.07748/0.07748 E 0.20759/0.20759 | yp100 |diff| 2.21e-07
+VALIDATE T2|kim_s42             epoch 35/35 | yp15(n=314) N 0.16728/0.16729 E 0.30158/0.30153 | yp30(n=314) N 0.12606/0.12605 E 0.28267/0.28266 | yp50(n=314) N 0.10647/0.10647 E 0.26546/0.26547 | yp100(n=291) N 0.07798/0.07798 E 0.21573/0.21573 | yp100 |diff| 6.03e-07
+VALIDATE T2|kim_s43             epoch 36/36 | yp15(n=314) N 0.16778/0.16778 E 0.30319/0.30322 | yp30(n=314) N 0.12628/0.12628 E 0.28230/0.28229 | yp50(n=314) N 0.10657/0.10657 E 0.26669/0.26670 | yp100(n=291) N 0.07797/0.07797 E 0.21982/0.21982 | yp100 |diff| 1.10e-07
+VALIDATE T2|kim_s44             epoch 33/33 | yp15(n=314) N 0.16787/0.16787 E 0.29884/0.29881 | yp30(n=314) N 0.12648/0.12647 E 0.27869/0.27868 | yp50(n=314) N 0.10675/0.10675 E 0.26341/0.26336 | yp100(n=291) N 0.07816/0.07816 E 0.21126/0.21126 | yp100 |diff| 1.27e-07
+VALIDATE T2|fukami_cnn_s42      epoch 50/50 | yp15(n=314) N 0.20388/0.20388 E 0.41649/0.41649 | yp30(n=314) N 0.14581/0.14582 E 0.36754/0.36757 | yp50(n=314) N 0.11916/0.11917 E 0.33675/0.33675 | yp100(n=291) N 0.08681/0.08681 E 0.27810/0.27810 | yp100 |diff| 6.17e-08
+VALIDATE T2|fukami_cnn_s43      epoch 50/50 | yp15(n=314) N 0.20376/0.20376 E 0.41625/0.41625 | yp30(n=314) N 0.14576/0.14576 E 0.36784/0.36786 | yp50(n=314) N 0.11916/0.11918 E 0.33717/0.33719 | yp100(n=291) N 0.08680/0.08680 E 0.27882/0.27882 | yp100 |diff| 3.08e-08
+VALIDATE T2|fukami_cnn_s44      epoch 50/50 | yp15(n=314) N 0.20379/0.20379 E 0.41640/0.41640 | yp30(n=314) N 0.14584/0.14584 E 0.36824/0.36826 | yp50(n=314) N 0.11921/0.11922 E 0.33763/0.33765 | yp100(n=291) N 0.08681/0.08681 E 0.27884/0.27884 | yp100 |diff| 4.44e-08
+VALIDATE T2|fukami_dscms_s42    epoch 50/50 | yp15(n=314) N 0.18158/0.18158 E 0.34069/0.34070 | yp30(n=314) N 0.13371/0.13371 E 0.30520/0.30520 | yp50(n=314) N 0.11125/0.11124 E 0.28013/0.28018 | yp100(n=291) N 0.08129/0.08129 E 0.22568/0.22568 | yp100 |diff| 8.27e-08
+VALIDATE T2|fukami_dscms_s43    epoch 49/49 | yp15(n=314) N 0.18153/0.18153 E 0.33931/0.33933 | yp30(n=314) N 0.13378/0.13376 E 0.30418/0.30416 | yp50(n=314) N 0.11127/0.11127 E 0.27921/0.27926 | yp100(n=291) N 0.08137/0.08137 E 0.22472/0.22472 | yp100 |diff| 2.14e-08
+VALIDATE T2|fukami_dscms_s44    epoch 50/50 | yp15(n=314) N 0.18152/0.18152 E 0.34018/0.34018 | yp30(n=314) N 0.13355/0.13354 E 0.30403/0.30404 | yp50(n=314) N 0.11114/0.11113 E 0.27878/0.27886 | yp100(n=291) N 0.08125/0.08125 E 0.22491/0.22491 | yp100 |diff| 3.49e-08
+VALIDATE T2|guastoni_s42        epoch 50/50 | yp15(n=314) N 0.19747/0.19746 E 0.39374/0.39375 | yp30(n=314) N 0.14255/0.14255 E 0.34699/0.34700 | yp50(n=314) N 0.11725/0.11726 E 0.31790/0.31790 | yp100(n=291) N 0.08554/0.08554 E 0.25945/0.25945 | yp100 |diff| 1.54e-08
+VALIDATE T2|guastoni_s43        epoch 49/49 | yp15(n=314) N 0.19759/0.19758 E 0.39497/0.39497 | yp30(n=314) N 0.14259/0.14260 E 0.34802/0.34802 | yp50(n=314) N 0.11726/0.11727 E 0.31891/0.31891 | yp100(n=291) N 0.08553/0.08553 E 0.25995/0.25995 | yp100 |diff| 3.13e-08
+VALIDATE T2|guastoni_s44        epoch 48/48 | yp15(n=314) N 0.19759/0.19759 E 0.39552/0.39554 | yp30(n=314) N 0.14253/0.14254 E 0.34890/0.34890 | yp50(n=314) N 0.11720/0.11721 E 0.32016/0.32017 | yp100(n=291) N 0.08549/0.08549 E 0.26096/0.26096 | yp100 |diff| 3.89e-08
+VALIDATE T2|v4c_s42             epoch 50/50 | yp15(n=314) N 0.23172/0.23173 E 0.03815/0.03810 | yp30(n=314) N 0.17715/0.17716 E 0.03393/0.03387 | yp50(n=314) N 0.15008/0.15007 E 0.03110/0.03115 | yp100(n=291) N 0.11035/0.11034 E 0.02919/0.02919 | yp100 |diff| 1.60e-06
+VALIDATE T3|v4e_s42             epoch 49/49 | yp15(n=314) N 0.26660/0.26659 E 0.52931/0.52930 | yp30(n=314) N 0.19015/0.19014 E 0.48828/0.48829 | yp50(n=314) N 0.15444/0.15445 E 0.45804/0.45807 | yp100(n=291) N 0.11375/0.11375 E 0.39702/0.39702 | yp100 |diff| 2.17e-08
+VALIDATE T3|v4e_s43             epoch 14/14 | yp15(n=314) N 0.26450/0.26449 E 0.52683/0.52681 | yp30(n=314) N 0.18832/0.18831 E 0.48167/0.48167 | yp50(n=314) N 0.15309/0.15309 E 0.45184/0.45188 | yp100(n=291) N 0.11294/0.11294 E 0.39559/0.39559 | yp100 |diff| 1.25e-07
+VALIDATE T3|v4e_s44             epoch 6/6 | yp15(n=314) N 0.26387/0.26384 E 0.52691/0.52690 | yp30(n=314) N 0.18817/0.18815 E 0.48675/0.48674 | yp50(n=314) N 0.15317/0.15317 E 0.45704/0.45706 | yp100(n=291) N 0.11306/0.11306 E 0.39642/0.39642 | yp100 |diff| 1.75e-07
+VALIDATE T3|v3_s42              epoch 50/50 | yp15(n=314) N 0.26325/0.26322 E 0.53020/0.53020 | yp30(n=314) N 0.18772/0.18772 E 0.48941/0.48942 | yp50(n=314) N 0.15275/0.15276 E 0.46041/0.46046 | yp100(n=291) N 0.11269/0.11269 E 0.39756/0.39756 | yp100 |diff| 8.38e-08
+VALIDATE T3|v3_s43              epoch 42/42 | yp15(n=314) N 0.26358/0.26356 E 0.53356/0.53355 | yp30(n=314) N 0.18793/0.18792 E 0.49165/0.49166 | yp50(n=314) N 0.15288/0.15289 E 0.46370/0.46374 | yp100(n=291) N 0.11279/0.11279 E 0.40122/0.40122 | yp100 |diff| 7.84e-08
+VALIDATE T3|v3_s44              epoch 35/35 | yp15(n=314) N 0.26410/0.26407 E 0.53114/0.53114 | yp30(n=314) N 0.18821/0.18819 E 0.49130/0.49134 | yp50(n=314) N 0.15307/0.15307 E 0.46214/0.46221 | yp100(n=291) N 0.11278/0.11278 E 0.40060/0.40060 | yp100 |diff| 8.64e-08
+VALIDATE T3|kim_s42             epoch 21/21 | yp15(n=314) N 0.26350/0.26349 E 0.53179/0.53176 | yp30(n=314) N 0.18841/0.18841 E 0.49308/0.49305 | yp50(n=314) N 0.15366/0.15366 E 0.46761/0.46759 | yp100(n=291) N 0.11351/0.11351 E 0.40475/0.40475 | yp100 |diff| 6.40e-08
+VALIDATE T3|kim_s43             epoch 22/22 | yp15(n=314) N 0.26366/0.26363 E 0.53555/0.53552 | yp30(n=314) N 0.18849/0.18848 E 0.49734/0.49734 | yp50(n=314) N 0.15371/0.15371 E 0.47272/0.47268 | yp100(n=291) N 0.11350/0.11350 E 0.40747/0.40747 | yp100 |diff| 1.53e-07
+VALIDATE T3|kim_s44             epoch 17/17 | yp15(n=314) N 0.26370/0.26368 E 0.53621/0.53619 | yp30(n=314) N 0.18843/0.18843 E 0.49708/0.49708 | yp50(n=314) N 0.15373/0.15374 E 0.47128/0.47126 | yp100(n=291) N 0.11353/0.11353 E 0.40547/0.40547 | yp100 |diff| 1.72e-08
+VALIDATE T3|fukami_cnn_s42      epoch 50/50 | yp15(n=314) N 0.27205/0.27204 E 0.54505/0.54505 | yp30(n=314) N 0.19332/0.19332 E 0.50333/0.50334 | yp50(n=314) N 0.15669/0.15670 E 0.47512/0.47514 | yp100(n=291) N 0.11533/0.11533 E 0.40978/0.40978 | yp100 |diff| 8.77e-09
+VALIDATE T3|fukami_cnn_s43      epoch 50/50 | yp15(n=314) N 0.27211/0.27210 E 0.54496/0.54497 | yp30(n=314) N 0.19336/0.19336 E 0.50338/0.50339 | yp50(n=314) N 0.15671/0.15672 E 0.47503/0.47506 | yp100(n=291) N 0.11532/0.11532 E 0.40928/0.40928 | yp100 |diff| 1.09e-08
+VALIDATE T3|fukami_cnn_s44      epoch 50/50 | yp15(n=314) N 0.27205/0.27204 E 0.54654/0.54655 | yp30(n=314) N 0.19335/0.19334 E 0.50430/0.50432 | yp50(n=314) N 0.15670/0.15670 E 0.47569/0.47572 | yp100(n=291) N 0.11528/0.11528 E 0.40959/0.40959 | yp100 |diff| 1.10e-08
+VALIDATE T3|fukami_dscms_s42    epoch 50/50 | yp15(n=314) N 0.26515/0.26513 E 0.53080/0.53079 | yp30(n=314) N 0.18919/0.18919 E 0.48994/0.48995 | yp50(n=314) N 0.15408/0.15409 E 0.46360/0.46364 | yp100(n=291) N 0.11383/0.11383 E 0.40074/0.40074 | yp100 |diff| 4.11e-08
+VALIDATE T3|fukami_dscms_s43    epoch 49/49 | yp15(n=314) N 0.26540/0.26537 E 0.53266/0.53266 | yp30(n=314) N 0.18927/0.18926 E 0.49102/0.49102 | yp50(n=314) N 0.15412/0.15413 E 0.46453/0.46456 | yp100(n=291) N 0.11384/0.11384 E 0.40312/0.40312 | yp100 |diff| 6.54e-09
+VALIDATE T3|fukami_dscms_s44    epoch 50/50 | yp15(n=314) N 0.26505/0.26503 E 0.53070/0.53070 | yp30(n=314) N 0.18923/0.18923 E 0.48972/0.48974 | yp50(n=314) N 0.15409/0.15410 E 0.46289/0.46292 | yp100(n=291) N 0.11379/0.11379 E 0.40036/0.40036 | yp100 |diff| 2.29e-08
+VALIDATE T3|guastoni_s42        epoch 50/50 | yp15(n=314) N 0.27044/0.27043 E 0.54200/0.54200 | yp30(n=314) N 0.19243/0.19242 E 0.50085/0.50086 | yp50(n=314) N 0.15616/0.15616 E 0.47334/0.47337 | yp100(n=291) N 0.11491/0.11491 E 0.40792/0.40792 | yp100 |diff| 7.58e-09
+VALIDATE T3|guastoni_s43        epoch 50/50 | yp15(n=314) N 0.27038/0.27037 E 0.54240/0.54240 | yp30(n=314) N 0.19240/0.19239 E 0.50088/0.50090 | yp50(n=314) N 0.15612/0.15613 E 0.47328/0.47331 | yp100(n=291) N 0.11490/0.11490 E 0.40792/0.40792 | yp100 |diff| 6.47e-09
+VALIDATE T3|guastoni_s44        epoch 50/50 | yp15(n=314) N 0.27034/0.27033 E 0.54255/0.54254 | yp30(n=314) N 0.19240/0.19240 E 0.50090/0.50092 | yp50(n=314) N 0.15616/0.15616 E 0.47347/0.47350 | yp100(n=291) N 0.11491/0.11491 E 0.40876/0.40876 | yp100 |diff| 1.00e-08
+VALIDATE T3|v4e_s42_ep7         epoch 7/7 | yp15(n=314) N 0.37176/0.37176 E 0.10088/0.10101 | yp30(n=314) N 0.26509/0.26505 E 0.09941/0.09938 | yp50(n=314) N 0.21436/0.21439 E 0.09989/0.10003 | yp100(n=291) N 0.15625/0.15625 E 0.10456/0.10456 | yp100 |diff| 9.86e-07
+VALIDATE T3|v4e_s43_ep19        epoch 19/19 | yp15(n=314) N 0.26550/0.26548 E 0.51495/0.51494 | yp30(n=314) N 0.18869/0.18867 E 0.47616/0.47617 | yp50(n=314) N 0.15330/0.15330 E 0.44975/0.44979 | yp100(n=291) N 0.11297/0.11297 E 0.39246/0.39246 | yp100 |diff| 7.64e-08
+VALIDATE T3|v4e_s44_ep34        epoch 34/34 | yp15(n=314) N 0.26592/0.26589 E 0.51656/0.51656 | yp30(n=314) N 0.18875/0.18872 E 0.47639/0.47641 | yp50(n=314) N 0.15328/0.15328 E 0.44743/0.44747 | yp100(n=291) N 0.11287/0.11287 E 0.38909/0.38909 | yp100 |diff| 1.25e-07
+VALIDATE T3|v4c_s42             epoch 50/50 | yp15(n=314) N 0.36772/0.36766 E 0.06159/0.06149 | yp30(n=314) N 0.26511/0.26507 E 0.05839/0.05830 | yp50(n=314) N 0.21702/0.21699 E 0.05439/0.05470 | yp100(n=291) N 0.16055/0.16055 E 0.05618/0.05618 | yp100 |diff| 9.18e-07
+VALIDATE T3|v4c_s43             epoch 50/50 | yp15(n=314) N 0.36391/0.36389 E 0.05892/0.05897 | yp30(n=314) N 0.26216/0.26214 E 0.05474/0.05476 | yp50(n=314) N 0.21422/0.21422 E 0.05120/0.05119 | yp100(n=291) N 0.15855/0.15855 E 0.04896/0.04896 | yp100 |diff| 4.83e-08
