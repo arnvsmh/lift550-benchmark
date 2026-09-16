@@ -10,6 +10,9 @@ File format (verified from binary inspection):
   - Snapshot N-1 (last): data record only, no leading metadata record
   - Small files (~1.63 GB): 833 or 834 snapshots
   - Large files (~3.26 GB): 1667 or 1668 snapshots
+
+Snapshots other than the last are read three values into the record, which matches the arrays
+behind all published results; Section III-A of the accompanying paper quantifies the effect.
 """
 
 import os
@@ -103,18 +106,26 @@ def read_snapshot(filepath: str | Path, snapshot_idx: int = 0) -> np.ndarray:
 def read_header(filepath: str | Path) -> dict:
     """
     Parse the 136-byte file header and return domain metadata.
+
+    Field labels checked against the bytes of 407 train and test files:
+      - data[32:40] is the start time of the file's snapshot sequence, not Re_tau: it runs from
+        500.0 to 2000.1 across files, is identical for u, v and w at every y+ of one file index,
+        and snapshot i's own time (start + 0.15*(i+1)) sits in the 16-byte record that follows
+        its data record.
+      - data[4:12] holds 7518.75 in every one of those files, so it is not a per-file time. Its
+        meaning was not determined here, so it is returned under a neutral name.
     """
     with open(filepath, "rb") as f:
         data = f.read(136)
 
     return {
-        "t_plus":  struct.unpack("<d", data[4:12])[0],
-        "Lx":      struct.unpack("<d", data[16:24])[0],
-        "Lz":      struct.unpack("<d", data[24:32])[0],
-        "Re_tau":  struct.unpack("<d", data[32:40])[0],
-        "nz":      struct.unpack("<i", data[56:60])[0],
-        "ny":      struct.unpack("<i", data[60:64])[0],
-        "nx":      struct.unpack("<i", data[64:68])[0],
+        "const_4_12": struct.unpack("<d", data[4:12])[0],
+        "Lx":         struct.unpack("<d", data[16:24])[0],
+        "Lz":         struct.unpack("<d", data[24:32])[0],
+        "t_start":    struct.unpack("<d", data[32:40])[0],
+        "nz":         struct.unpack("<i", data[56:60])[0],
+        "ny":         struct.unpack("<i", data[60:64])[0],
+        "nx":         struct.unpack("<i", data[64:68])[0],
     }
 
 
